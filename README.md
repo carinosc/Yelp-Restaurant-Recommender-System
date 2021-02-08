@@ -25,9 +25,9 @@ Alternatively, I have also provided the `capstone_environment.yml` file to more 
 
 ## Data Description
 
-The data used for this project derive from the [Yelp Dataset](https://www.yelp.com/dataset) resource webpage, of which the `yelp_academic_dataset_business.json` and `yelp_academic_dataset_review.json` were used. Information found in the sets include restaurant features and information, in addition to the individual text reviews and ratings assessed by users for respective restaurants.
+The data used for this project derive from the [Yelp Dataset](https://www.yelp.com/dataset) resource webpage, of which the `yelp_academic_dataset_business.json` and `yelp_academic_dataset_review.json` files were used. Information found in the sets include restaurant features and information, in addition to the individual text reviews and ratings assessed by users for respective restaurants.
 
-I touch on the command line processing tool, `jq` (documentation [here](https://stedolan.github.io/jq/manual/)), used to help parse the large JSON files, but the 'data' folder contains the sub-files resulted from the parsing for reference.
+I touch on the command line processing tool, `jq` (documentation [here](https://stedolan.github.io/jq/manual/)), used to help parse the large JSON files, but the 'data' folder contains a parsed version of the businesses file named `finrestphx.json` and the last sub-file after splitting the toal reviews file; given the size limits of Git.
 
 ---------
 
@@ -36,7 +36,7 @@ I touch on the command line processing tool, `jq` (documentation [here](https://
 - `capstone_environment.yml`: Contains all of the packages installed in my environment in which the project was ran (please note, a number of them are base packages).
 - `Cesar_Carino_Capstone_Report.pdf`: A summary report of my work and thought process on the project.
 - `Cesar_Carino_Yelp_Restaurant_Recommender_System.ipynb`: A cleaned and consolidated notebook of all my work for the project.
-- `Data`: Folder containing the relevant Yelp datasets used for the project, and sub-files created.
+- `Data`: Folder containing the samples of parsed Yelp datasets used for the project. As mentioned, the complete original Yelp data files can be obtained [here](https://www.yelp.com/dataset).
 
 Please be advised, to use the Yelp Dataset information, you must adhere to Yelp's "DataSet_User_Agreement.pdf" as I did when first downloading the information.
 
