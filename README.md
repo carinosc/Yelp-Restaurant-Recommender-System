@@ -14,10 +14,10 @@ This project serves as an example of my efforts in solidifying my data analysis 
 
 Using the conda package manager, the following were the main packages used for my project in addition to python, install at your own risk:
 
-⋅⋅* `conda install pandas`: For JSON importing and DataFrame analysis
-⋅⋅* `conda install matplotlib`: For visualizations
-⋅⋅* `conda install scikit-learn`: For access into the Machine Learning toolbox
-⋅⋅* `conda install scikit-surprise`: For the Matrix Factorization algorithm, FunkSVD, and additional functions
+- `conda install pandas`: For JSON importing and DataFrame analysis
+- conda install matplotlib`: For visualizations
+- `conda install scikit-learn`: For access into the Machine Learning toolbox
+- `conda install scikit-surprise`: For the Matrix Factorization algorithm, FunkSVD, and additional functions
 
 Alternatively, I have also provided the `capstone_environment.yml` file to more efficiently clone the environment and its packages from.
 
@@ -33,10 +33,10 @@ I touch on the command line processing tool, `jq` (documentation [here](https://
 
 ## File Directory
 
-⋅⋅* `capstone_environment.yml`: Contains all of the packages installed in my environment in which the project was ran (please note, a number of them are base packages).
-⋅⋅* `Cesar_Carino_Capstone_Report.pdf`: A summary report of my work and thought process on the project.
-⋅⋅* `Cesar_Carino_Yelp_Restaurant_Recommender_System.ipynb`: A cleaned and consolidated notebook of all my work for the project.
-⋅⋅* `Data`: Folder containing the relevant Yelp datasets used for the project, and sub-files created.
+- `capstone_environment.yml`: Contains all of the packages installed in my environment in which the project was ran (please note, a number of them are base packages).
+- `Cesar_Carino_Capstone_Report.pdf`: A summary report of my work and thought process on the project.
+- `Cesar_Carino_Yelp_Restaurant_Recommender_System.ipynb`: A cleaned and consolidated notebook of all my work for the project.
+- `Data`: Folder containing the relevant Yelp datasets used for the project, and sub-files created.
 
 Please be advised, to use the Yelp Dataset information, you must adhere to Yelp's "DataSet_User_Agreement.pdf" as I did when first downloading the information.
 
